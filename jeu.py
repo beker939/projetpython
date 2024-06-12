@@ -355,6 +355,7 @@ while running:
     for unit in units:
         unit.draw(screen, units, objectives)
 
+
     draw_turn_indicator(screen, player_turn)
     draw_end_turn_button(screen, width, height, interface_height)
     draw_unit_attributes(screen, selected_unit, width, height, interface_height)
